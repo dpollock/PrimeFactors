@@ -8,12 +8,6 @@ namespace PrimeFactors
         {
             var result = new List<int>();
 
-            if (number == 2 || number == 3)
-            {
-                result.Add(number);
-                return result;
-            }
-
             int i;
             for (i = 2; number > 1; i++)
             {
